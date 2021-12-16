@@ -1,0 +1,31 @@
+{
+  "name": "ex-520-backend",
+  "version": "1.0.0",
+  "description": "Use bcrypt to allow users to sign up and log in via an API.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FbW-D01/Exercise-520-BE-SEC-createUserSignUpAndLogin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FbW-D01/Exercise-520-BE-SEC-createUserSignUpAndLogin/issues"
+  },
+  "homepage": "https://github.com/FbW-D01/Exercise-520-BE-SEC-createUserSignUpAndLogin#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.0.14"
+  }
+}
