@@ -1,0 +1,1 @@
+mongoimport --host cluster0-shard-00-02.rctsh.mongodb.net:27017 --db api520 --collection user --type json --file user.json --jsonArray --authenticationDatabase admin --ssl --username user2
